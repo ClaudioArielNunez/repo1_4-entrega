@@ -1,0 +1,17 @@
+/* formulario Newsletter*/
+
+legend{
+    color: red;
+}
+textarea {
+    background-color: rgba(183, 206, 206, 0.479);
+}
+.submitBoton {
+    background-color: rgba(14, 211, 14, 0.685);
+}
+.flex{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;       
+}

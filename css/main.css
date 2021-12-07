@@ -1,0 +1,80 @@
+/* Google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 2rem; }
+
+html {
+  font-size: 62.5%; }
+
+h1 {
+  font-size: 3.5rem; }
+
+h2 {
+  font-size: 3rem; }
+
+h3 {
+  font-size: 2.8rem; }
+
+h4 {
+  font-size: 2.6rem; }
+
+h5 {
+  font-size: 1.8rem; }
+
+body {
+  font-family: 'Open Sans', sans-serif; }
+
+ul {
+  list-style: none; }
+
+blockquote {
+  font-weight: bolder; }
+
+main {
+  padding: 1rem;
+  margin: 1.5rem;
+  background-color: rgba(202, 199, 199, 0.157); }
+
+.bgColor {
+  background-color: #F2CC0F; }
+
+.imgLogo {
+  width: 150px; }
+
+nav ul li {
+  margin: 10px; }
+  nav ul li a:hover {
+    font-weight: bolder; }
+
+.pie {
+  text-align: center;
+  color: #f35e08;
+  padding: 5px;
+  background-color: #F2CC0F; }
+
+.pie__icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+.pie__icons--size {
+  width: 30px;
+  margin-right: 20px; }
+
+/* formulario Newsletter*/
+legend {
+  color: red; }
+
+textarea {
+  background-color: rgba(183, 206, 206, 0.479); }
+
+.submitBoton {
+  background-color: rgba(14, 211, 14, 0.685); }
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }

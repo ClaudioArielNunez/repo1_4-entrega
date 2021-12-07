@@ -1,0 +1,18 @@
+
+.pie{
+    text-align: center;
+    color: $secondary;
+    padding: 5px;
+    background-color: $primary;
+}
+
+.pie__icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.pie__icons--size{
+    width: $w-45;
+    margin-right: 20px;
+}
